@@ -1,0 +1,50 @@
+@media screen and (max-width: 576px) {
+    .hamburger-menu{
+        display: block;
+    }
+    .sub-container-two{
+        display: none;
+    }
+    .container {
+        flex-direction: column;
+        width: 100%;
+     }
+     .header-img-1{
+         margin-left: 0px;
+         margin-top: 0;
+     }
+     .header-card-2 {
+        position: relative;
+        display: none;
+     }
+     .primary-btn{
+         width: 200px;
+         height: 50px;
+     }
+     .primary-btn-black{
+         width: 269px;
+         height: 50px;
+     }
+     .header-btn{
+         display: flex;
+    }
+    .header-head{
+        width: 300px;
+        height: 200px;
+        font-size: 3rem;
+     }
+     .header-pera{
+         width: 300px;
+     }
+     .habit-tittle{
+        width: 100%;
+    }
+    .habit-head{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    .habit-card-para {
+        margin: 0 auto;
+    }
+
+}
