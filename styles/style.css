@@ -385,3 +385,51 @@ td {
 
 /* BMI section ends here */
 
+/* Our team section starts here*/
+.our-team-section {
+    max-width: 1440px;
+    margin: 100px auto;
+}
+
+.tittle-container {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-team-para {
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+    width: 50%;
+    margin: 20px auto;
+    opacity: 0.5;
+}
+.our-main-container {
+    width: 80%;
+    margin: 0 auto;
+}
+.our-team-card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    justify-items: center;
+    gap: 10px;
+}
+.img-card {
+    width: 350px;
+    height: 300px;
+    text-align: center;
+}
+.img-card img {
+    width: 100%;
+    height: 100%;
+}
+.img-tittle {
+    position: relative;
+    bottom: 80px;
+    left: 30px;
+    display: inline;
+    color: white;
+}
+
+/* Our team section ends here */
+
