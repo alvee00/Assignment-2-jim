@@ -66,8 +66,82 @@
         gap: 50px;
         margin-right: 2px;
     }
-    
-
-
+    .sub-run-container{
+        flex-direction: column;
+        margin: 0 auto;
+    }
+    .run-head{
+       text-align: center;
+       width: 400px;
+       margin-top: 50px;
+    }
+    .run-para{
+        width: 400px;
+    }
+    .sub-run-img-container {
+        width: 400px;
+        height: 312px;
+        margin-top: 20px;
+    }
+  .run-btn{
+    width: 400px;
+    height: 50px;
+    text-align: center;
+  }
+  .bmi-para{
+    width: 400px;
+    margin-bottom: 50px;
+    font-size: 0.8rem;
+  }
+  .bmi-form-container{
+    flex-direction: column;
+  }
+  .calculator-container{
+    width: 400px;
+    height: 200px;
+    text-align: center;
+  }
+  .table-container{
+    margin-bottom: 100px;
+    margin: 0 auto;
+  }
+  .bmi-same-head-two{
+    width: 350px;
+    height: 100px;
+    /* text-align: center; */
+    margin-bottom: 50px;
+    margin-top: 100px;
+  }
+  .input-text{
+    display: inline;
+    width: 315px;
+    margin-bottom: 10px;
+  }
+  .input-text-one{
+    width: 315px;
+    margin-bottom: 10px;
+  }
+  .big-input{
+    width: 315px;
+  }
+  .bmi-cal-two{
+    width: 350px;
+  }
+  .bmi-cal-one{
+    width: 350px;
+  }
+  .our-team-card-container{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .footer-container{
+    flex-direction: column;
+  }
+  .servicess-container{
+    width: 400px;
+    height: 350px;
+    margin-right: 50px;
+    margin-top: 20px;
+  }
 
 }
