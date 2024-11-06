@@ -46,5 +46,28 @@
     .habit-card-para {
         margin: 0 auto;
     }
+    .header-img-1 img{
+        flex-direction: column;
+        width: 100%;
+    }
+    .habit-tittle{
+        width: 100%;
+    }
+    .habit-head{
+        font-size: 3rem;
+        margin-top: 10px;
+    }
+    .habit-card-pera {
+        margin: 0 auto;
+    }
+    .sub-habit-card-container{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        margin-right: 2px;
+    }
+    
+
+
 
 }
