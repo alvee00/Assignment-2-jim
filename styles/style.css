@@ -433,3 +433,62 @@ td {
 
 /* Our team section ends here */
 
+/* footer section starts here */
+.footer-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.footer-container {
+    width: 80%;
+    margin: 50px auto;
+    display: flex;
+}
+.footer-sub-container {
+    width: 50%;
+}
+
+.footer-sub-container-two {
+    width: 50%;
+    display: flex;
+}
+.servicess-container {
+    width: 50%;
+    justify-items: center;
+}
+.footer-small-para {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    width: 443px;
+    color: rgb(255, 255, 255);
+    margin-top: 30px;
+    opacity: 0.5;
+}
+.footer-head {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+}
+.footer-para {
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 22px;
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    opacity: 0.4;
+}
+.all-right {
+    width: 80%;
+    margin: 40px auto;
+    font-size: 1.2;
+    font-weight: 400;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+.horizontal {
+    margin-bottom: 50px;
+    opacity: 0.3;
+}
+
+/* footer sectin ends here */
