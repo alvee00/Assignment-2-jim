@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+    background-color: rgb(17, 17, 17);
+
+}
+/* navbar starts here */
+.navbar-section {
+    max-width: 1440px;
+    margin: 0 auto;
+    background: linear-gradient(180.00deg, rgba(17, 17, 17, 0.719), rgba(119, 119, 119, 0.326) 100%);
+
+
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.navbar-head {
+    color: #E6533C;
+    font-size: 2.2rem;
+    font-weight: 800;
+    line-height: 2rem;
+
+}
+.sub-container-two {
+    margin-left: 20px;
+}
+
+.menu {
+    background-color: #E6533C;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1rem;
+    padding: 5px 8px;
+    text-decoration: none;
+}
+
+.navbar-menu {
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 15px;
+    margin-left: 40px;
+    background-color: rgb(17, 17, 17);
+    color: white;
+}
+
+.hamburger-menu {
+    display: none;
+    color: white;
+}
+
+/* navbar ends here */
+
+/* header section starts here */
+.header-section {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.header-sub-container {
+    width: 50%;
+}
+.header-sub-container-2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+
+}
+.header-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 450px;
+    right: 30px;
+}
+.header-card-2 {
+    position: absolute;
+    bottom: 400px;
+    right: 100px;
+}
+.sercle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: rgb(230, 83, 60);
+
+}
+.header-img-1 {
+    margin-left: 220px;
+    width: 349px;
+    height: 580px;
+}
+.header-img-1 img {
+    width: 100%;
+    height: 100%;
+
+}
+.header-head {
+    font-size: 4.4rem;
+    font-weight: 900;
+    line-height: 70px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 20px;
+}
+.uniq {
+    font-family: "Pinyon Script", cursive;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+}
+.header-head-two {
+    font-size: 2.3rem;
+    font-weight: 900;
+    line-height: 40px;
+    color: rgb(255, 255, 255);
+}
+.header-pera {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    margin-bottom: 20px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.primary-btn {
+    background: rgb(230, 83, 60);
+    gap: 10;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+}
+
+.primary-btn-black {
+    background: black;
+    gap: 10;
+    padding: 16px 40px 16px 40px;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    margin-left: 15px;
+    border: 1px solid white;
+}
+
+/* header section ends here */
+
